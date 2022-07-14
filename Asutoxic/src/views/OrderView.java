@@ -195,9 +195,9 @@ public class OrderView {
         OrderItem newOrderItem = new OrderItem();
         double sum = 0;
         try {
-            System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯LIST ORDER☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.printf("☯%-15s %-15s %-12s %-15s %-15s %-10s %-10s %-15s %-15s    ☯\n", "   Id", "Tên khách hàng", "  SĐT", "Địa chỉ", "Tên sản phẩm", "Số lượng", "   Giá", "   Tổng", "  Ngày tạo ");
-            System.out.println("☯--------------------------------------------------------------------------------------------------------------------------------------☯");
+            System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯LIST ORDER☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
+            System.out.printf("☯%-15s %-15s %-12s %-20s %-65s %-20s %-20s %-20s %-20s☯\n", "   Id", "Tên khách hàng", "  SĐT", "Địa chỉ", "Tên sản phẩm", "Số lượng", "   Giá", "   Tổng", "  Ngày tạo ");
+            System.out.println("☯-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------☯");
             for (Order order : orders) {
                 for (OrderItem orderItem : orderItems) {
                     if (orderItem.getOrderId() == order.getId()) {
@@ -205,7 +205,7 @@ public class OrderView {
                         break;
                     }
                 }
-                System.out.printf("|%-15s %-15s %-12s %-15s %-15s %-10s %-10s %-15s %-15s   |\n",
+                System.out.printf("☯ %-15s %-15s %-12s %-20s %-65s %-20s %-20s %-20s %-20s☯\n",
                         order.getId(),
                         order.getFullName(),
                         order.getPhone(),
@@ -220,10 +220,10 @@ public class OrderView {
             }
             Order order = new Order();
             order.setGrandTotal(sum);
-            System.out.println("☯--------------------------------------------------------------------------------------------------------------------------------------☯");
+            System.out.println("☯-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------☯");
 
-            System.out.printf("|%-100s Tổng tiền: %12s          |\n", " ", AppUtils.doubleToVND(order.getGrandTotal()));
-            System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯\n\n");
+            System.out.printf("☯%-185s Tổng tiền: %12s        ☯\n", " ", AppUtils.doubleToVND(order.getGrandTotal()));
+            System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯\n\n");
             boolean is = true;
             do {
                 System.out.println("Nhấn 'q' để trở lại \t|\t 't' để thoát chương trình");

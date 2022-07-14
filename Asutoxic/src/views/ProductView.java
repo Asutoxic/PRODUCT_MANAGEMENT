@@ -19,13 +19,13 @@ public class ProductView {
 
     public void showProducts(InputOption inputOption) {
 
-        System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯" + " DANH SÁCH SẢN PHẨM ☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
+        System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯" + " DANH SÁCH SẢN PHẨM ☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
         System.out.println("");
-        System.out.printf("%-15s %-30s %-25s %-20s %-20s %-20s\n", "Id", "Tên sản phẩm", "Giá sản phẩm", "Số lượng", "Ngày tạo", "Ngày cập nhật");
+        System.out.printf("%-15s %-70s %-25s %-20s %-20s %-20s\n", "Id", "Tên sản phẩm", "Giá sản phẩm", "Số lượng", "Ngày tạo", "Ngày cập nhật");
         System.out.println(" ");
         List<Product> products = productService.findAll();
         for (Product product : products) {
-            System.out.printf("%-15d %-30s %-25s %-20s %-20s %-20s\n",
+            System.out.printf("%-15d %-70s %-25s %-20s %-20s %-20s\n",
                     product.getId(),
                     product.getTitle(),
                     AppUtils.doubleToVND(product.getPrice()),
@@ -33,7 +33,7 @@ public class ProductView {
                     InstantUtils.instantToString(product.getCreatedAt()),
                     product.getUpdatedAt() == null ? "" : InstantUtils.instantToString(product.getUpdatedAt()));
             System.out.println("");
-            System.out.println("--------------------------------------------------------------------------------------------------");
+            System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
         }
         if (inputOption == InputOption.SHOW) AppUtils.isRetry(InputOption.SHOW);
