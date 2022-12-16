@@ -9,17 +9,17 @@ public class MemberView {
         int option;
         do {
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("☯                                               MEMBER MENU                                            ☯");
+            System.out.println("☯                                                                                MEMBER MENU                                                                           ☯");
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("☯                                                                                                      ☯");
-            System.out.println("☯                                     [1] Hiển Thị Sản Phẩm                                            ☯");
-            System.out.println("☯                                     [2] Tìm Kiếm Sản Phẩm                                            ☯");
-            System.out.println("☯                                     [3] Sắp Xếp Sản Phẩm Theo Giá Tăng Dần                           ☯");
-            System.out.println("☯                                     [4] Sắp Xếp Sản Phẩm Theo Giá Giảm Dần                           ☯");
-            System.out.println("☯                                     [5] Tạo Order                                                    ☯");
-            System.out.println("☯                                     [6] Xem Danh Sách Order                                          ☯");
-            System.out.println("☯                                     [0] Thoát                                                        ☯");
-            System.out.println("☯                                                                                                      ☯");
+            System.out.println("☯                                                                                                                                                                      ☯");
+            System.out.println("☯                                                                      [1] Hiển Thị Sản Phẩm                                                                           ☯");
+            System.out.println("☯                                                                      [2] Tìm Kiếm Sản Phẩm                                                                           ☯");
+            System.out.println("☯                                                                      [3] Sắp Xếp Sản Phẩm Theo Giá Tăng Dần                                                          ☯");
+            System.out.println("☯                                                                      [4] Sắp Xếp Sản Phẩm Theo Giá Giảm Dần                                                          ☯");
+            System.out.println("☯                                                                      [5] Tạo Order                                                                                   ☯");
+            System.out.println("☯                                                                      [6] Xem Danh Sách Order                                                                         ☯");
+            System.out.println("☯                                                                      [0] Thoát                                                                                       ☯");
+            System.out.println("☯                                                                                                                                                                      ☯");
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
             Scanner scanner = new Scanner(System.in);
             ProductView productView = new ProductView();

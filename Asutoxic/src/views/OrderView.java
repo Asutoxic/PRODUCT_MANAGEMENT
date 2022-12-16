@@ -104,14 +104,14 @@ public class OrderView {
             System.out.println("Tạo đơn hàng thành công!");
             do {
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                 OPTION                                               ☯");
+                System.out.println("☯                                                                               OPTION                                                                                 ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                                                                      ☯");
-                System.out.println("☯                                     [1] Nhấn 'y' để tạo tiếp đơn hàng                                ☯");
-                System.out.println("☯                                     [2] Nhấn 'q' để trở lại                                          ☯");
-                System.out.println("☯                                     [3] Nhấn 'p' để in hoá đơn                                       ☯");
-                System.out.println("☯                                     [4] Nhấn 't' để thoát                                            ☯");
-                System.out.println("☯                                                                                                      ☯");
+                System.out.println("☯                                                                                                                                                                      ☯");
+                System.out.println("☯                                                                   [1] Nhấn 'y' để tạo tiếp đơn hàng                                                                  ☯");
+                System.out.println("☯                                                                   [2] Nhấn 'q' để trở lại                                                                            ☯");
+                System.out.println("☯                                                                   [3] Nhấn 'p' để in hoá đơn                                                                         ☯");
+                System.out.println("☯                                                                   [4] Nhấn 't' để thoát                                                                              ☯");
+                System.out.println("☯                                                                                                                                                                      ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
                 System.out.print(" ⭆ ");
                 String choice = scanner.nextLine();
@@ -140,7 +140,7 @@ public class OrderView {
     public void showPaymentInfo(OrderItem orderItem, Order order) {
         try {
             System.out.println("\t\t\t\t☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("\t\t\t\t☯                                                     HÓA ĐƠN                                                       ☯");
+            System.out.println("\t\t\t\t☯                                                                           HÓA ĐƠN                                                                                                           ☯");
             System.out.println("\t\t\t\t☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
             System.out.printf("\t\t\t\t\t%-20s\t %-25s %16s \n", "Tên đầy đủ   :          ", order.getFullName(), "");
             System.out.printf("\t\t\t\t\t%-20s\t %-25s %16s \n", "Số điện thoại:          ", order.getPhone(), "");
@@ -197,7 +197,7 @@ public class OrderView {
         try {
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯LIST ORDER☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
             System.out.printf("☯%-15s %-15s %-12s %-20s %-65s %-20s %-20s %-20s %-20s☯\n", "   Id", "Tên khách hàng", "  SĐT", "Địa chỉ", "Tên sản phẩm", "Số lượng", "   Giá", "   Tổng", "  Ngày tạo ");
-            System.out.println("☯-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------☯");
+            System.out.println("☯---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------☯");
             for (Order order : orders) {
                 for (OrderItem orderItem : orderItems) {
                     if (orderItem.getOrderId() == order.getId()) {
@@ -220,7 +220,7 @@ public class OrderView {
             }
             Order order = new Order();
             order.setGrandTotal(sum);
-            System.out.println("☯-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------☯");
+            System.out.println("☯-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------☯");
 
             System.out.printf("☯%-185s Tổng tiền: %12s        ☯\n", " ", AppUtils.doubleToVND(order.getGrandTotal()));
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯\n\n");

@@ -33,7 +33,7 @@ public class ProductView {
                     InstantUtils.instantToString(product.getCreatedAt()),
                     product.getUpdatedAt() == null ? "" : InstantUtils.instantToString(product.getUpdatedAt()));
             System.out.println("");
-            System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
+            System.out.println("-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
         }
         if (inputOption == InputOption.SHOW) AppUtils.isRetry(InputOption.SHOW);
@@ -59,15 +59,15 @@ public class ProductView {
             long id = inputId(InputOption.UPDATE);
 
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("☯                                              UPDATE                                           ☯");
+            System.out.println("☯                                                                                   UPDATE                                                                  ☯");
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("☯                                                                                               ☯");
-            System.out.println("☯                                         [1] Sửa tên sản phẩm                                  ☯");
-            System.out.println("☯                                         [2] Sửa giá sản phẩm                                  ☯");
-            System.out.println("☯                                         [3] Sửa số lượng sản phẩm                             ☯");
-            System.out.println("☯                                         [4] Quay Lại                                          ☯");
-            System.out.println("☯                                         [0] Thoát                                             ☯");
-            System.out.println("☯                                                                                               ☯");
+            System.out.println("☯                                                                                                                                                           ☯");
+            System.out.println("☯                                                                              [1] Sửa tên sản phẩm                                                         ☯");
+            System.out.println("☯                                                                              [2] Sửa giá sản phẩm                                                         ☯");
+            System.out.println("☯                                                                              [3] Sửa số lượng sản phẩm                                                    ☯");
+            System.out.println("☯                                                                              [4] Quay Lại                                                                 ☯");
+            System.out.println("☯                                                                              [0] Thoát                                                                    ☯");
+            System.out.println("☯                                                                                                                                                           ☯");
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
             System.out.println("Chọn chức năng: ");
             int option = AppUtils.retryChoose(0, 4);
@@ -123,13 +123,13 @@ public class ProductView {
         }
 
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-        System.out.println("☯                                            REMOVE MENU                                        ☯");
+        System.out.println("☯                                                                                     REMOVE MENU                                                           ☯");
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-        System.out.println("☯                                                                                               ☯");
-        System.out.println("☯                                     [1] Xác nhận xóa sản phẩm này                             ☯");
-        System.out.println("☯                                     [2] Quay lại                                              ☯");
-        System.out.println("☯                                     [0] Thoát                                                 ☯");
-        System.out.println("☯                                                                                               ☯");
+        System.out.println("☯                                                                                                                                                           ☯");
+        System.out.println("☯                                                                              [1] Xác nhận xóa sản phẩm này                                                ☯");
+        System.out.println("☯                                                                              [2] Quay lại                                                                 ☯");
+        System.out.println("☯                                                                              [0] Thoát                                                                    ☯");
+        System.out.println("☯                                                                                                                                                           ☯");
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
         int option = AppUtils.retryChoose(0, 2);
         if (option == 1) {
@@ -156,14 +156,14 @@ public class ProductView {
         int option;
         do {
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("☯                                              FIND MENU                                        ☯");
+            System.out.println("☯                                                                                 FIND MENU                                                                 ☯");
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-            System.out.println("☯                                                                                               ☯");
-            System.out.println("☯                                         [1] Tìm kiếm theo Id                                  ☯");
-            System.out.println("☯                                         [2] Tìm kiếm theo tên                                 ☯");
-            System.out.println("☯                                         [3] Quay lại                                          ☯");
-            System.out.println("☯                                         [0] Thoát                                             ☯");
-            System.out.println("☯                                                                                               ☯");
+            System.out.println("☯                                                                                                                                                           ☯");
+            System.out.println("☯                                                                            [1] Tìm kiếm theo Id                                                           ☯");
+            System.out.println("☯                                                                            [2] Tìm kiếm theo tên                                                          ☯");
+            System.out.println("☯                                                                            [3] Quay lại                                                                   ☯");
+            System.out.println("☯                                                                            [0] Thoát                                                                      ☯");
+            System.out.println("☯                                                                                                                                                           ☯");
             System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
             System.out.println("Chọn chức năng: ");
             option = AppUtils.retryChoose(0, 3);

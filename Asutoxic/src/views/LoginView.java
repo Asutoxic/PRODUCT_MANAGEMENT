@@ -23,9 +23,9 @@ public class LoginView {
     public void login() {
         boolean isRetry = false;
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                                                                      ☯");
-                System.out.println("☯                                               ĐĂNG NHẬP HỆ THỐNG                                     ☯");
-                System.out.println("☯                                                                                                      ☯");
+                System.out.println("☯                                                                                                                                                                      ☯");
+                System.out.println("☯                                                                           ĐĂNG NHẬP HỆ THỐNG                                                                         ☯");
+                System.out.println("☯                                                                                                                                                                      ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
 
         do {
@@ -56,12 +56,12 @@ public class LoginView {
         do {
             try {
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                    MENU                                              ☯");
+                System.out.println("☯                                                                                MENU                                                                                   ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                                                                      ☯");
-                System.out.println("☯                                     [1] Nhập 'y' để tiếp tục đăng nhập                               ☯");
-                System.out.println("☯                                     [2] Nhập 'n' để thoát khỏi chương trình                          ☯");
-                System.out.println("☯                                                                                                      ☯");
+                System.out.println("☯                                                                                                                                                                       ☯");
+                System.out.println("☯                                                                 [1] Nhập 'y' để tiếp tục đăng nhập                                                                    ☯");
+                System.out.println("☯                                                                 [2] Nhập 'n' để thoát khỏi chương trình                                                               ☯");
+                System.out.println("☯                                                                                                                                                                       ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
                 System.out.print(" ⭆ ");
                 String option = scanner.nextLine();

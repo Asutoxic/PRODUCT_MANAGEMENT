@@ -44,14 +44,14 @@ public class UserView {
     public void setRole(User user) {
         int option;
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-        System.out.println("☯                                               SET ROLE                                        ☯");
+        System.out.println("☯                                                                                      SET ROLE                                                             ☯");
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-        System.out.println("☯                                                                                               ☯");
-        System.out.println("☯                                              [1] USER                                         ☯");
-        System.out.println("☯                                              [2] ADMIN                                        ☯");
-        System.out.println("☯                                              [3] Quay Lại                                     ☯");
-        System.out.println("☯                                              [0] Thoát                                        ☯");
-        System.out.println("☯                                                                                               ☯");
+        System.out.println("☯                                                                                                                                                           ☯");
+        System.out.println("☯                                                                                     [1] USER                                                              ☯");
+        System.out.println("☯                                                                                     [2] ADMIN                                                             ☯");
+        System.out.println("☯                                                                                     [3] Quay Lại                                                          ☯");
+        System.out.println("☯                                                                                     [0] Thoát                                                             ☯");
+        System.out.println("☯                                                                                                                                                           ☯");
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
         do {
             System.out.println("Chọn Role: ");
@@ -104,17 +104,17 @@ public class UserView {
                 showUsers(InputOption.UPDATE);
                 long id = inputId(InputOption.UPDATE);
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                UPDATE                                         ☯");
+                System.out.println("☯                                                                               UPDATE                                                                      ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-                System.out.println("☯                                                                                               ☯");
-                System.out.println("☯                                       [1] Cập Nhật Lại Tên Người Dùng                         ☯");
-                System.out.println("☯                                       [2] Cập Nhật Lại Số Điện Thoại                          ☯");
-                System.out.println("☯                                       [3] Cập Nhật Lại Email                                  ☯");
-                System.out.println("☯                                       [4] Cập Nhật Lại Địa Chỉ                                ☯");
-                System.out.println("☯                                       [5] Cập Nhật Lại Role                                   ☯");
-                System.out.println("☯                                       [6] Quay Lại                                            ☯");
-                System.out.println("☯                                       [0] Thoát                                               ☯");
-                System.out.println("☯                                                                                               ☯");
+                System.out.println("☯                                                                                                                                                           ☯");
+                System.out.println("☯                                                                      [1] Cập Nhật Lại Tên Người Dùng                                                      ☯");
+                System.out.println("☯                                                                      [2] Cập Nhật Lại Số Điện Thoại                                                       ☯");
+                System.out.println("☯                                                                      [3] Cập Nhật Lại Email                                                               ☯");
+                System.out.println("☯                                                                      [4] Cập Nhật Lại Địa Chỉ                                                             ☯");
+                System.out.println("☯                                                                      [5] Cập Nhật Lại Role                                                                ☯");
+                System.out.println("☯                                                                      [6] Quay Lại                                                                         ☯");
+                System.out.println("☯                                                                      [0] Thoát                                                                            ☯");
+                System.out.println("☯                                                                                                                                                           ☯");
                 System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
 
                 int option = AppUtils.retryChoose(0, 6);
@@ -187,13 +187,13 @@ public class UserView {
         }
 
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-        System.out.println("☯                                              REMOVE MENU                                      ☯");
+        System.out.println("☯                                                                                     REMOVE MENU                                                           ☯");
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
-        System.out.println("☯                                                                                               ☯");
-        System.out.println("☯                                        [1] Xác Nhận Xóa Người Dùng                            ☯");
-        System.out.println("☯                                        [2] Quay Lại                                           ☯");
-        System.out.println("☯                                        [0] Thoát                                              ☯");
-        System.out.println("☯                                                                                               ☯");
+        System.out.println("☯                                                                                                                                                           ☯");
+        System.out.println("☯                                                                               [1] Xác Nhận Xóa Người Dùng                                                 ☯");
+        System.out.println("☯                                                                               [2] Quay Lại                                                                ☯");
+        System.out.println("☯                                                                               [0] Thoát                                                                   ☯");
+        System.out.println("☯                                                                                                                                                           ☯");
         System.out.println("☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯☯");
 
         int option = AppUtils.retryChoose(0, 2);
